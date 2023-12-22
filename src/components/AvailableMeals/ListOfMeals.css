@@ -1,0 +1,19 @@
+.background  {
+    border: 1px solid black;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    background-color: #13111C;
+}
+
+
+
+.menu-wrapper {
+    border: 1px solid black;
+    margin-top: 10vh;
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #789662;
+}
+

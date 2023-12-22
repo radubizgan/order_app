@@ -1,0 +1,37 @@
+.form_display{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 4vw
+}
+
+.input_info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+
+}
+
+.input_class {
+    width: 19vw
+}
+
+.actions_form {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+    margin-right: 5vw
+}
+
+.invalid label {
+    color: #b40e0e;
+  }
+  
+.invalid input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+  }
+
+.error_text { 
+    color: #b40e0e;
+  } 

@@ -1,0 +1,45 @@
+
+.menu-item {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vh;
+    max-width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 15px;
+    background-color: #D5C9B0;
+    border-radius: 10px;
+    
+}
+
+.menu-wrapper {
+    border: 1px solid black;
+    margin-top: 10vh;
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #789662;
+}
+
+.menu-btn {
+    margin-right: 2vw;
+    font-size: 1.2rem;
+}
+
+
+
+.menu-price {
+    margin-left: auto;
+    
+}
+
+input {
+    width: 3vw;
+    height: 4vh;
+    font-size: 1.2rem;
+}
