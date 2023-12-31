@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import ListOfMeals from "./components/AvailableMeals/ListOfMeals";
 import CartItems from "./components/Header/CartItems"
 import CartProvider from "./components/Store/cart-provider";
+import "./App.css" 
 
 function App() {
 

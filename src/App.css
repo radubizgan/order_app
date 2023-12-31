@@ -1,3 +1,14 @@
-body {
-  background-image: url("../public/dsc01939-1638289406.jpg");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  padding: 10px;
+  font-weight: 600;
+  
 }

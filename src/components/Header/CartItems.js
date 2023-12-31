@@ -33,7 +33,7 @@ const CartItems = (props) => {
     
 
     const ItemsInCart = (
-        <ul>
+        <div>
             {ctx.items?.map((item) => (
                 <CartItem
                     name={item.name}
@@ -42,7 +42,7 @@ const CartItems = (props) => {
                     onAdd={() => ctx.addItem(item)}
                     onRemove={() => ctx.removeItem(item.id)} />
             ))}
-        </ul>
+        </div>
     );
 
     const orderHandler = () => {

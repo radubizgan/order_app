@@ -6,10 +6,7 @@
     align-items: center;
     gap: 3vh;
     max-width: 65vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin: 5vh auto;
     padding: 15px;
     background-color: #D5C9B0;
     border-radius: 10px;
@@ -26,20 +23,26 @@
     background-color: #789662;
 }
 
-.menu-btn {
-    margin-right: 2vw;
+.menu-form {
+    margin-right: 2px;
     font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
 }
-
-
 
 .menu-price {
     margin-left: auto;
     
 }
 
-input {
-    width: 3vw;
-    height: 4vh;
+
+.menu-form input {
+    width: 50px;
     font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid black;
 }
+

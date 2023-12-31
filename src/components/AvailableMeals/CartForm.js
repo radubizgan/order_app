@@ -18,7 +18,7 @@ const CartForm = (props) => {
     
     return (
         
-        <form onSubmit={submitHandler} className="menu-btn">
+        <form onSubmit={submitHandler} className="menu-form">
             <Input
                  label=""
                  input={{

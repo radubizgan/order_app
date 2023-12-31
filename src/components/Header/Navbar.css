@@ -5,7 +5,7 @@ justify-content: flex-end;
 height: 13vh;
 align-items: center;
 font-size: 1.5rem;
-background-color: rgba(120, 150, 98, 0.5);
+background-color: rgba(120, 150, 98);
 }
 
 .shop-cart {
@@ -19,33 +19,10 @@ background-color: rgba(120, 150, 98, 0.5);
     background-size: cover; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
     background-repeat: no-repeat;
+    padding: 40px;
 }
 
-button {
-   
-  background-color: #FFFFFF;
-  border: 1px solid #222222;
-  border-radius: 8px;
-  box-sizing: border-box;
-  color: #222222;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 20px;
-  margin: 0;
-  outline: none;
-  padding: 13px 23px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  touch-action: manipulation;
-  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
-  user-select: none;
-  -webkit-user-select: none;
-  width: auto;
-}
+
 
 .button-visible {
   box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
@@ -72,10 +49,10 @@ button {
     justify-content: center;
     align-items: center;
     border: 1px solid white;
-    margin-top: 20vh;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 50vw;
+    margin: 100px auto;
     background-color: rgba(120, 150, 98, 0.9);
     margin-bottom: 5vh;
+    padding: 10px;
+    max-width: 900px;
+    width: 100%;
 }
